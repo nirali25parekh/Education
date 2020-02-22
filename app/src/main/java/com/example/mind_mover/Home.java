@@ -40,6 +40,16 @@ public class Home extends BaseActivity {
                         displayMessage("123 selected");
                         drawerLayout.closeDrawers();
                         return true;
+                    case R.id.articles:
+                        item.setChecked(true);
+                        displayMessage("Articles");
+                        drawerLayout.closeDrawers();
+                        return true;
+                    case R.id.quiz:
+                        item.setChecked(true);
+                        displayMessage("Quiz");
+                        drawerLayout.closeDrawers();
+                        return true;
                 }
                 return false;
             }

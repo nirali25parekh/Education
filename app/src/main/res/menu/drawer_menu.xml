@@ -10,5 +10,13 @@
             android:id="@+id/onetwothree"
             android:title="123"
             android:icon="@drawable/abc_vector_test"/>
+        <item
+            android:id="@+id/articles"
+            android:title="Articles"
+            android:icon="@drawable/abc_vector_test"/>
+        <item
+            android:id="@+id/quiz"
+            android:title="Quiz"
+            android:icon="@drawable/abc_vector_test"/>
     </group>
 </menu>
