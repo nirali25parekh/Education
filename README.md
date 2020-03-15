@@ -1,4 +1,9 @@
 # Education
+Navigation done in:
+
+1. Left side navigation drawer.
+2. Home Page
+3. Splash Screen
 
 <div style="float:right">
 <br>
