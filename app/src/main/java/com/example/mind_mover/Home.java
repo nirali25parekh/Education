@@ -37,16 +37,19 @@ public class Home extends BaseActivity {
                         return true;
                     case R.id.onetwothree:
                         item.setChecked(true);
+                        getSupportFragmentManager().beginTransaction().replace(R.id.drawer_layout,new CheckBoxFragment()).commit();
                         displayMessage("123 selected");
                         drawerLayout.closeDrawers();
                         return true;
                     case R.id.articles:
                         item.setChecked(true);
+                        getSupportFragmentManager().beginTransaction().replace(R.id.drawer_layout,new ProfileFragment()).commit();
                         displayMessage("Articles");
                         drawerLayout.closeDrawers();
                         return true;
                     case R.id.quiz:
                         item.setChecked(true);
+                        getSupportFragmentManager().beginTransaction().replace(R.id.drawer_layout,new ProfileFragment()).commit();
                         displayMessage("Quiz");
                         drawerLayout.closeDrawers();
                         return true;

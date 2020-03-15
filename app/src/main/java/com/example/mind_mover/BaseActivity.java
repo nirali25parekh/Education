@@ -42,7 +42,6 @@ public class BaseActivity extends AppCompatActivity {
 
     }
 
-
     public void setTitle(String title) {
         textViewTitle.setText(title);
     }
